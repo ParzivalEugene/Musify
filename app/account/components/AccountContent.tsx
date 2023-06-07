@@ -1,11 +1,11 @@
 "use client";
 
-import { useEffect, useState } from "react";
 import { useRouter } from "next/navigation";
+import { useEffect, useState } from "react";
 
-import { useUser } from "@/hooks/useUser";
 import Button from "@/components/Button";
 import useSubscribeModal from "@/hooks/useSubscribeModal";
+import { useUser } from "@/hooks/useUser";
 import { postData } from "@/libs/helpers";
 
 const AccountContent = () => {

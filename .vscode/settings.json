@@ -1,0 +1,7 @@
+{
+  "discord.lowerDetailsEditing": "Working on Musify (Spotify Clone)",
+  "editor.codeActionsOnSave": {
+    "source.fixAll": true,
+    "source.organizeImports": true
+  }
+}

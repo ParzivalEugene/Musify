@@ -1,8 +1,8 @@
 "use client";
 
+import { useRouter } from "next/navigation";
 import qs from "query-string";
 import { useEffect, useState } from "react";
-import { useRouter } from "next/navigation";
 
 import useDebounce from "@/hooks/useDebounce";
 
